@@ -1,0 +1,95 @@
+highscores.json
+
+*.pyc
+__pycache__
+
+venv/
+.venv/
+
+# Editors
+*~
+*.swp
+.vs/
+.vscode/
+.idea/
+
+# Windows prebuilt external libraries
+/prebuilt-x??
+/prebuilt_downloads
+
+# macOS generated files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribuição / Empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+.venv*/  # caso você use um nome como .venv37, .venv39, etc
+.ipynb_checkpoints
+
+# PyInstaller
+#  Geralmente cria pastas como /build e /dist, que já estão listadas acima
+#  Acrescente se usar nomes diferentes.
+
+# Unit test / Coverage reports
+.coverage
+.coverage.*
+.cache
+.nox
+pytest_cache/
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e bancos de dados locais
+*.log
+*.sqlite3
+*.db
+
+# Arquivos de depuração ou dumps
+*.stackdump
+*.dump
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
